@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git clone $REPO_URL TorToolkit-Telegram
+
+cp -rf TorToolkit-Telegram/* ./
+
+rm -rf TorToolkit-Telegram
+
+./start.sh
