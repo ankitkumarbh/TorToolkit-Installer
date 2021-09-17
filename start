@@ -6,4 +6,8 @@ cp -rf TorToolkit-Telegram/* ./
 
 rm -rf TorToolkit-Telegram
 
+chmod 777 alive.sh
+
+chmod 777 start.sh
+
 ./start.sh
