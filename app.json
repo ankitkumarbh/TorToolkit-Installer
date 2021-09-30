@@ -1,0 +1,75 @@
+{
+ "name": "TeleBot - UserBot",
+ "description": "An advanced Telethon Userbot",
+ "logo": "https://telegra.ph/file/0b1d5cb8deeec7a506154.jpg",
+ "keywords": [
+  "telegram",
+  "userbot",
+  "TeleBot",
+  "modular",
+  "productivity"
+ ],
+ "repository": "https://github.com/ankitkumarbh/Tele-Bot/",
+ "website": "https://github.com/ankitkumarbh",
+ "success_url": "https://github.com/ankitkumarbh",
+ "stack": "container",
+ "env": {
+  "ENV": {
+   "description": "Setting this to ANYTHING will enable heroku.",
+   "value": "ANYTHING"
+  },
+  "IS_VPS": {
+   "description": "IS_VPS",
+   "value": "false",
+   "required": false
+  },
+  "APP_ID": {
+   "description": "Get this value from my.telegram.org! Please do not steal",
+   "value": ""
+  },
+  "API_HASH": {
+   "description": "Get this value from my.telegram.org! Please do not steal",
+   "value": ""
+  },
+  "BASE_URL_OF_BOT": {
+   "description": "BASE_URL_OF_BOT",
+   "value": ""
+   "required": false
+  },  
+  "REPO_URL": {
+   "description": "REPO_URL",
+   "value": ""
+  },  
+  "ALD_USR": {
+   "description": "ALD_USR",
+   "value": "859187586",
+   "required": false
+  },
+   "BOT_TOKEN": {
+   "description": "BOT_TOKEN",
+   "value": "",
+   "required": true
+  },  
+  "OWNER_ID": {
+   "description": "OWNER_ID",
+   "value": "859187586",
+   "required": true
+  },  
+  "DB_URI": {
+   "description": "DB_URI",
+   "value": "",
+   "required": false
+  },
+  "TZ": {
+   "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+   "value": "Asia/Kolkata",
+   "required": false
+  }
+ },
+ "addons": [{
+  "plan": "heroku-postgresql",
+  "options": {
+   "version": "12"
+  }
+ }]
+}
