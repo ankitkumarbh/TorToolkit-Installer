@@ -25,20 +25,20 @@
   },
   "APP_ID": {
    "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
+   "value": "",
   },
   "API_HASH": {
    "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
+   "value": "",
   },
   "BASE_URL_OF_BOT": {
    "description": "BASE_URL_OF_BOT",
-   "value": ""
+   "value": "",
    "required": false
   },  
   "REPO_URL": {
    "description": "REPO_URL",
-   "value": ""
+   "value": "",
   },  
   "ALD_USR": {
    "description": "ALD_USR",
