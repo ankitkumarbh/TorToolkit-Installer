@@ -35,6 +35,7 @@
    "description": "BASE_URL_OF_BOT",
    "value": ""
    "required": false
+   
   },  
   "REPO_URL": {
    "description": "REPO_URL",
